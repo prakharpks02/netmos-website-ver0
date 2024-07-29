@@ -636,10 +636,6 @@ li {
   border-radius: 0px 20px 20px 0px;
   z-index: -1;
 }
-.partner-box {
-  display: flex;
-  justify-content: space-around;
-}
 .banner-section .partner .partner-box .slick-track {
   display: flex;
   align-items: center;
@@ -692,7 +688,7 @@ li {
   content: "";
 }
 .banner-section.about .overlay {
-  background-image: url(../img2/about-left.png), url(../img2/about-right.png);
+  background-image: url(../img/about-left.png), url(../img2/about-banner-2.png);
   background-repeat: no-repeat;
   background-position: left 120px, right bottom;
 }
@@ -702,7 +698,7 @@ li {
   background-position: right bottom;
 }
 .banner-section.account .overlay {
-  background-image: url(../img2/account-banner.png);
+  background-image: url(../img/account-banner.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -710,7 +706,7 @@ li {
   padding: 332px 0 214px;
 }
 .banner-section.account-details .overlay {
-  background-image: url(../img2/account-details-banner.png);
+  background-image: url(../img/account-details-banner.png);
   background-repeat: no-repeat;
   background-position: right 10% bottom 30px;
 }
@@ -718,8 +714,7 @@ li {
   padding: 298px 0 165px;
 }
 .banner-section.card-banner .overlay {
-  background-image: url(../img2/card-banner-bg.png),
-    url(../img2/card-banner.png);
+  background-image: url(../img/card-banner-bg.png), url(../img/card-banner.png);
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
 }
@@ -727,7 +722,7 @@ li {
   padding: 350px 0 233px;
 }
 .banner-section.product .overlay {
-  background-image: url(../img2/product-banner.png);
+  background-image: url(../img/product-banner.png);
   background-repeat: no-repeat;
   background-position: right 50px center;
   background-position-y: 63%;
@@ -736,7 +731,7 @@ li {
   padding: 356px 0 239px;
 }
 .banner-section.car-loans .overlay {
-  background-image: url(../img2/car-banner.png);
+  background-image: url(../img/car-banner.png);
   background-repeat: no-repeat;
   background-position: right 50px center;
   background-position-y: 63%;
@@ -745,7 +740,7 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.business-loan .overlay {
-  background-image: url(../img2/business-banner.png);
+  background-image: url(../img/business-banner.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
@@ -753,7 +748,7 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.home-loan .overlay {
-  background-image: url(../img2/home-banner.png);
+  background-image: url(../img/home-banner.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
@@ -761,7 +756,7 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.educations-loan .overlay {
-  background-image: url(../img2/educations-banner.png);
+  background-image: url(../img/educations-banner.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
@@ -769,7 +764,7 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.personal-loan .overlay {
-  background-image: url(../img2/personal-banner.png);
+  background-image: url(../img/personal-banner.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
@@ -801,8 +796,8 @@ li {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background-image: url(../img2/remittance-Illu.png),
-    url(../img2/remittance-city-bg.png);
+  background-image: url(../img/remittance-Illu.png),
+    url(../img/remittance-city-bg.png);
   background-repeat: no-repeat;
   background-position: right bottom, right center;
 }
@@ -886,7 +881,7 @@ li {
   padding: 265px 0 205px;
 }
 .banner-section.affiliate .bottom-box {
-  background-image: url(../img2/affiliate-circle.png);
+  background-image: url(../img/affiliate-circle.png);
   background-repeat: no-repeat;
   background-position: bottom 20px center;
   margin-top: -158px;
@@ -931,22 +926,22 @@ li {
   background-color: var(--body-color);
 }
 .banner-section.blog .overlay {
-  background-image: url(../img2/blog-banner.png);
+  background-image: url(../img/blog-banner.png);
   background-repeat: no-repeat;
   background-position: right 30px bottom;
 }
 .banner-section.faqs .overlay {
-  background-image: url(../img2/faqs-banner.png);
+  background-image: url(../img/faqs-banner.png);
   background-repeat: no-repeat;
   background-position: right 30px bottom;
 }
 .banner-section.privacy-content .overlay {
-  background-image: url(../img2/privacy-banner.png);
+  background-image: url(../img/privacy-banner.png);
   background-repeat: no-repeat;
   background-position: right 30px bottom;
 }
 .banner-section.terms .overlay {
-  background-image: url(../img2/terms-banner.png);
+  background-image: url(../img/terms-banner.png);
   background-repeat: no-repeat;
   background-position: right 30px bottom;
 }
@@ -1084,7 +1079,7 @@ li {
   direction: rtl;
 }
 .solutions-business {
-  background-image: url(../img2/solutions-business-bg.png);
+  background-image: url(../img/solutions-business-bg.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -1136,13 +1131,10 @@ li {
   background-image: unset;
 }
 .card-section {
-  background-image: url(../img2/card-bg.png);
+  background-image: url(../img/card-bg.png);
   background-position: top left -150px;
   background-repeat: no-repeat;
   background-size: contain;
-}
-.container {
-  margin-left: 10rem;
 }
 .card-section .card-carousel-index .single {
   padding: 0 30px;
@@ -1151,8 +1143,7 @@ li {
   width: 100%;
 }
 .card-section .card-carousel-index .button-area {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 30px;
 }
 .card-section .card-carousel-index .slick-prev {
   left: calc(50% - 100px);
@@ -1276,7 +1267,7 @@ li {
   visibility: visible;
 }
 .call-action {
-  background-image: url(../img2/call-action-bg.png);
+  background-image: url(../img/call-action-bg.png);
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -1299,7 +1290,7 @@ li {
   margin: 0 10px;
 }
 .call-action.card-page {
-  background-image: url(../img2/call-action-card-bg.png);
+  background-image: url(../img/call-action-card-bg.png);
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -1328,7 +1319,7 @@ li {
   margin-top: -8px;
 }
 .call-action.second {
-  background-image: url(../img2/call-action-card-second.png);
+  background-image: url(../img/call-action-card-second.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1434,8 +1425,8 @@ li {
   background: var(--hover-color);
 }
 .call-action.affiliate {
-  background-image: url(../img2/affiliate-card.png),
-    url(../img2/call-action-card-second.png);
+  background-image: url(../img/affiliate-card.png),
+    url(../img/call-action-card-second.png);
   background-repeat: no-repeat;
   background-position: right 90px top, top;
 }
@@ -2072,7 +2063,7 @@ li {
   z-index: 1;
 }
 .about-section .img-area .img-3 {
-  top: -150px;
+  top: -400px;
   right: -75px;
 }
 .our-core-values {
@@ -2680,7 +2671,7 @@ li {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background-image: url(../img2/card-feature-right.png);
+  background-image: url(../img/card-feature-right.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -2777,7 +2768,7 @@ li {
   background: #f5faff;
 }
 .apply-for-loan .overlay {
-  background-image: url(../img2/apply-for-loan-bg.png);
+  background-image: url(../img/apply-for-loan-bg.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: auto;
@@ -2832,7 +2823,7 @@ li {
   height: 75%;
   top: 12px;
   z-index: -1;
-  background-image: url(../img2/apply-loan-banner.png);
+  background-image: url(../img/apply-loan-banner.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -2967,7 +2958,7 @@ li {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: url(../img2/call-action-card-bg.png);
+  background-image: url(../img/call-action-card-bg.png);
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3306,7 +3297,7 @@ li {
   padding-bottom: 0;
 }
 .counter-educations {
-  background-image: url(../img2/counter-bg.png);
+  background-image: url(../img/counter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3393,7 +3384,7 @@ li {
   box-shadow: 0px 12px 24px rgba(47, 65, 129, 0.1);
   border-radius: 20px;
   padding: 30px;
-  background-image: url(../img2/how-it-works-circle.png);
+  background-image: url(../img/how-it-works-circle.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   position: absolute;
@@ -3422,7 +3413,7 @@ li {
   margin-right: 10px;
 }
 .how-it-works .contant-area.congratulation {
-  background-image: url(../img2/congratulation-bg.png);
+  background-image: url(../img/congratulation-bg.png);
   background-repeat: no-repeat;
   background-position: bottom;
   width: 70%;
@@ -3446,12 +3437,12 @@ li {
 }
 .how-it-works .mid-contant:before {
   top: -15%;
-  background-image: url(../img2/divider-1.png);
+  background-image: url(../img/divider-1.png);
   background-repeat: no-repeat;
 }
 .how-it-works .mid-contant::after {
   bottom: -15%;
-  background-image: url(../img2/divider-2.png);
+  background-image: url(../img/divider-2.png);
   background-repeat: no-repeat;
 }
 .blog-single .img-area-top img {
@@ -3562,7 +3553,7 @@ li {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url(../img2/sign-in-up-bg.png);
+  background-image: url(../img/sign-in-up-bg.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -3869,6 +3860,15 @@ li {
   .faqs-section.account::before {
     width: 100%;
     left: 0;
+  }
+  .financial-text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #055c2d;
+  }
+  .inner-container {
+    display: flex;
+    justify-content: center;
   }
   .how-works .nav-link .left-side::before {
     left: calc(50% + 5px);
