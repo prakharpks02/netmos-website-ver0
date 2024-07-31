@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NETMOS</title>
 
-    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="icon" type="image/ico" href="img/logos/logo-favicon.png">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
 
@@ -17,23 +18,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/plugin/nice-select.css">
-    <link rel="stylesheet" href="css/plugin/slick.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/arafat-font.css">
-    <link rel="stylesheet" href="css/plugin/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/style-rtl.min.css" id="rtl-stylesheet" disabled>
 </head>
 
 <body>
-
-    <!-- start LTR to RTL -->
-    <div class="position-fixed d-flex flex-column text-center" id="draggableDiv">
-        <button id="btn-ltr" class="cmn-btn rounded-2 py-2 px-3">LTR</button>
-        <span class="draggable py-2"><i class="fas fa-arrows-alt xxlr m-0"></i></span>
-        <button id="btn-rtl" class="cmn-btn rounded-2 py-2 px-3">RTL</button>
-    </div>
-    <!-- end LTR to RTL -->
 
     <!-- start preloader -->
     <div class="preloader" id="preloader"></div>
@@ -60,78 +53,23 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
                             <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="about-us-tushar.html">About Us</a>
+                                    <a class="nav-link" aria-current="page" href="about-us">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                                    <a class="nav-link" aria-current="page" href="https://blog.netmos.in"
+                                        target="_blank">Blog</a>
                                 </li>
-                                <!-- <li class="nav-item dropdown main-navbar">
-                                <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog</a>
-                                <ul class="dropdown-menu main-menu shadow">
-                                    <li class="dropend sub-navbar">
-                                        <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                            data-bs-toggle="dropdown" data-bs-auto-close="outside">Account</a>
-                                        <ul class="dropdown-menu sub-menu shadow">
-                                            <li><a class="nav-link" href="account.html">Account</a></li>
-                                            <li><a class="nav-link" href="account-details.html">Account Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="nav-link" href="">Blog</a></li>
-                                    <li class="dropend sub-navbar">
-                                        <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                            data-bs-toggle="dropdown" data-bs-auto-close="outside">Loan</a>
-                                        <ul class="dropdown-menu sub-menu shadow">
-                                            <li><a class="nav-link" href="business-loan.html">Business Loans</a>
-                                            </li>
-                                            <li><a class="nav-link" href="educations-loan.html">Educations Loans</a>
-                                            </li>
-                                            <li><a class="nav-link" href="home-loan.html">Home Loans</a></li>
-                                            <li><a class="nav-link" href="car-loan.html">Car Loans</a></li>
-                                            <li><a class="nav-link" href="personal-loan.html">Personal Loans</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="nav-link" href="card.html">Card</a></li>
-                                </ul>
-                            </li> -->
-                                <!-- <li class="nav-item dropdown main-navbar">
-                                <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
-                                <ul class="dropdown-menu main-menu shadow">
-                                    <li><a class="nav-link" href="affiliate.html">Affiliate</a></li>
-                                    <li class="dropend sub-navbar">
-                                        <a href="javascript:void(0)" class="dropdown-item dropdown-toggle"
-                                            data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog</a>
-                                        <ul class="dropdown-menu sub-menu shadow">
-                                            <li><a class="nav-link" href="blog-list.html">Blog List</a></li>
-                                            <li><a class="nav-link" href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a class="nav-link" href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="nav-link" href="remittance.html">Remittance</a></li>
-                                    <li><a class="nav-link" href="career-single.html">Career Single</a></li>
-                                    <li><a class="nav-link" href="faqs.html">Faqs</a></li>
-                                    <li><a class="nav-link" href="login.html">Login</a></li>
-                                    <li><a class="nav-link" href="password-set.html">Password Set</a></li>
-                                    <li><a class="nav-link" href="varify-number.html">Varify Number</a></li>
-                                    <li><a class="nav-link" href="otp.html">OTP</a></li>
-
-                                    <li><a class="nav-link" href="terms-conditions.html">Terms Conditions</a></li>
-                                    <li><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
-
-                                </ul>
-                            </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact-us-tushar.html">Contact Us</a>
+                                    <a class="nav-link" href="contact-us">Contact Us</a>
                                 </li>
                             </ul>
                             <div class="right-area header-action d-flex align-items-center">
-                                <a href="register.html" class="cmn-btn">Pre-Register</a>
+                                <a target="_blank"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdA-yaPriH9xU_W-ys6D01C61vS1IgJpuZuinjnWEzG1NOgiA/viewform?usp=sf_link"
+                                    class="cmn-btn">Pre-Register</a>
                             </div>
                         </div>
                     </nav>
@@ -189,7 +127,7 @@
                                 <div class="row gy-4">
                                     <div class="col-6">
                                         <div class="form-group">
-                                            <label for="surename">Your Company Name</label>
+                                            <label for="surename">Your Name</label>
                                             <input type="text" placeholder="Enter Your Company Name" required
                                                 id="surename">
                                         </div>
@@ -251,9 +189,9 @@
                             <div class="icon-box">
                                 <img src="img2/need-help-1.png" alt="icon">
                             </div>
-                            <h5>Sales</h5>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="8dfeece1e8fecdefece3e6e4e2a3eee2e0">[email&#160;protected]</a></p>
+                            <h5>Location</h5>
+                            <p><a href="index" style="color: black;">NERCRMS, Rynjah,
+                                    Shillong, Meghalaya - 793014</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -262,9 +200,8 @@
                                 <img src="img2/need-help-2.png" alt="icon">
                             </div>
                             <h5>Help & Support</h5>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="d7a4a2a7a7b8a5a3a497b5b6b9bcbeb8f9b4b8ba">[email&#160;protected]</a>
-                            </p>
+                            <p><a href="tel:+918486280580" style="color: black;">+91 8486280580</a></p>
+                            <br>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -272,9 +209,10 @@
                             <div class="icon-box">
                                 <img src="img2/need-help-3.png" alt="icon">
                             </div>
-                            <h5>Media & Press</h5>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="eb868e8f828aab898a85808284c5888486">[email&#160;protected]</a></p>
+                            <h5>Email Address</h5>
+                            <p><a href="mailto:info@netmos.in" style="color: black; font-size: 25px;">info@netmos.in</a>
+                            </p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -282,7 +220,31 @@
         </div>
     </section>
     <!-- Need more help In end -->
+    <iframe class="map" id="gmap_canvas"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14395.855789436224!2d91.9062198!3d25.5728662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37507f3fa3561497%3A0xda868ef8d486832b!2sNERCRMS%20(North%20East%20Region%20Community%20Resource%20Management%20Society)!5e0!3m2!1sen!2sin!4v1722425988923!5m2!1sen!2sin"
+        height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+    <!-- Get Start In start -->
+    <section class="get-start wow fadeInUp">
+        <div class="overlay">
+            <div class="container">
+                <div class="col-12">
+                    <div class="get-content">
+                        <div class="section-text">
+                            <h3 class="title">Let's Catch Up</h3>
+                            <p style="font-size: 24px; line-height: 25px;">Not sure how to manage your Logistics and
+                                grow<br>Let's connect over a cup of coffee</p>
+                        </div>
+                        <!-- <a href="register.html" class="cmn-btn">Open an Account</a> -->
+                        <img src="img2/get-start.png" alt="images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get Start In end -->
+    <br><br><br>
     <!-- FAQs In start -->
     <section class="faqs-section account">
         <div class="overlay pt-120 pb-120">
@@ -292,8 +254,7 @@
                         <div class="section-header text-center">
                             <h5 class="sub-title">If you have question,we have answer</h5>
                             <h2 class="title">Frequently asked questions</h2>
-                            <p>Get answers to all questions you have and boost your knowledge so you can save, invest
-                                and spend smarter. <a href="faqs.html">See all questions here!</a></p>
+                            <p>We have compiled a list of answers to most common questions</p>
                         </div>
                     </div>
                 </div>
@@ -306,15 +267,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                             aria-expanded="false" aria-controls="collapseTwo">
-                                            How do I locate the nearesty branch or ATM?
+                                            What is your Pricing?
                                         </button>
                                     </h5>
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
+                                            <p>Our Pricing varies depening on the specific product or services. Please
+                                                contact our sales team for more information.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -323,15 +283,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                            What do I do if I lose my card or it gets stolen?
+                                            How do I sign up?
                                         </button>
                                     </h5>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
+                                            <p>To sign up, simply visit our website and click on the 'Sign Up' Button.
+                                                Follow the instructions to create your account.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -340,15 +299,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                            What is your customer service number?
+                                            Can I cancel my subscription?
                                         </button>
                                     </h5>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
+                                            <p>Yes, you can cancel your subscription at any time. Please refer to our
+                                                cancellation policy for more details.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -357,15 +315,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                             aria-expanded="false" aria-controls="collapseFive">
-                                            How do I reset my pin?
+                                            How long is the free trial?
                                         </button>
                                     </h5>
                                     <div id="collapseFive" class="accordion-collapse collapse"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
+                                            <p>Our free trial is for 14 days. During this time, you can explore all
+                                                features and functionalities of our products.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -374,32 +331,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapsesix"
                                             aria-expanded="false" aria-controls="collapsesix">
-                                            What is required to use Digital Banking?
+                                            Do you offer refunds?
                                         </button>
                                     </h5>
                                     <div id="collapsesix" class="accordion-collapse collapse"
                                         aria-labelledby="headingsix" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="headingsaven">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapsesaven"
-                                            aria-expanded="false" aria-controls="collapsesaven">
-                                            Is digital banking secure?
-                                        </button>
-                                    </h5>
-                                    <div id="collapsesaven" class="accordion-collapse collapse"
-                                        aria-labelledby="headingsaven" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>If your card is missing, let us know immediately. We’ll block your card
-                                                right away send over a new one on the same day.To report a lost or
-                                                stolen card, call us at (406) 555-0120.</p>
+                                            <p>Refunds are available in certain circumstances. Please review our refund
+                                                policy for more information.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -412,25 +351,6 @@
     </section>
     <!-- FAQs In end -->
 
-    <!-- Get Start In start -->
-    <section class="get-start wow fadeInUp">
-        <div class="overlay">
-            <div class="container">
-                <div class="col-12">
-                    <div class="get-content">
-                        <div class="section-text">
-                            <h3 class="title">Ready to get started?</h3>
-                            <p>It only takes a few minutes to register your FREE NETMOS account.</p>
-                        </div>
-                        <a href="register.html" class="cmn-btn">Open an Account</a>
-                        <img src="img2/get-start.png" alt="images">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Get Start In end -->
-
 
 
     <!-- Footer Area Start -->
@@ -442,7 +362,9 @@
                         <a href="index.html" class="logo">
                             <img src="img/logos/netmos-logo.png" alt="logo" style="width: 130px;">
                         </a>
-                        <p>Transforming Logistics & Supply Chain Management</p>
+                        <p>NETMOS is a project by NERCRMS under North Eastern Council to strenthen the logistics
+                            ecosystem of North Eastern India and help implement ULIP
+                        </p>
                         <div class="social-link d-flex align-items-center">
                             <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://x.com/Netmos_India"><i class="fab fa-twitter"></i></a>
@@ -451,48 +373,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-2 col-6">
+                <div class="col-xl-3 col-lg-3 col-8">
                     <div class="footer-box">
-                        <h5>Company</h5>
+                        <h5>CONTACT INFO</h5>
                         <ul class="footer-link">
-                            <li><a href="about-us-tushar.html">About Us</a></li>
-                            <li><a href="awards.html">Awards</a></li>
-                            <li><a href="career-single.html">Careers</a></li>
+                            <li><a href="mailto:info@netmos.in">info@netmos.in</a></li>
+                            <li><a href="tel:+918486280580">+91 8486280580</a></li>
+                            <li><a href="https://maps.app.goo.gl/DryvULYTyJq9efLH8" target="_blank">NERCRMS, Rynjah,
+                                    Shillong, Meghalaya - 793014</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-6">
                     <div class="footer-box">
-                        <h5>Useful Links</h5>
+                        <h5>CITIES</h5>
                         <ul class="footer-link">
-                            <li><a href="product.html">Products</a></li>
-                            <li><a href="business-loan.html">Business Loan</a></li>
-                            <li><a href="affiliate.html">Affiliate Program</a></li>
-                            <li><a href="blog-list.html">Blog</a></li>
+                            <li>Guwahati</li>
+                            <li>Gangtok</li>
+                            <li>Shillong</li>
+                            <li>Imphal</li>
+                            <li>Itanagar</li>
+                            <li>Kohima</li>
+                            <li>Aizwal</li>
+                            <li>Agartala</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-6">
                     <div class="footer-box">
-                        <h5>Support</h5>
+                        <h5>LINKS</h5>
                         <ul class="footer-link">
-                            <li><a href="/cdn-cgi/l/email-protection#23505653534c51576341424d484a4c">Support@NETMOS</a>
-                            </li>
-                            <li><a href="contact-us-tushar.html">Contact Us</a></li>
-                            <li><a href="faqs.html">FAQ</a></li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="blog">Blog</a></li>
+                            <li><a onclick="window.alert('Coming Soon')">Pricing</a></li>
+                            <li><a href="contact-us">Contact Us</a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-8">
-                    <div class="footer-box">
-                        <h5>Subscribe</h5>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" placeholder="Enter Your Email address">
-                                <button class="cmn-btn">Subscribe</button>
-                            </div>
-                        </form>
-                        <p>Get the latest updates via email. Any time you may unsubscribe</p>
                     </div>
                 </div>
             </div>
@@ -505,17 +420,17 @@
                             </p>
                         </div>
                         <div class="right">
-                            <a href="privacy-policy.html" class="cus-bor">Privacy </a>
-                            <a href="terms-conditions.html">Terms &amp; Condition </a>
+                            <a href="" class="cus-bor">Privacy </a>
+                            <a href="">Terms &amp; Condition </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="img-area">
+        <!-- <div class="img-area">
             <img src="img2/footer-Illu-left.png" class="left" alt="Images">
             <img src="img2/footer-Illu-right.png" class="right" alt="Images">
-        </div>
+        </div> -->
     </div>
     <!-- Footer Area End -->
 
