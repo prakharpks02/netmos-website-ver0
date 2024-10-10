@@ -731,10 +731,10 @@ li {
   padding: 356px 0 239px;
 }
 .banner-section.car-loans .overlay {
-  background-image: url(../img/car-banner.png);
+  background-image: url(../img2/PragD-1.png);
   background-repeat: no-repeat;
-  background-position: right 50px center;
-  background-position-y: 63%;
+  background-position: right 100px center;
+  background-position-y: 150%;
 }
 .banner-section.car-loans .overlay .banner-content {
   padding: 307px 0 170px;
@@ -748,7 +748,7 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.home-loan .overlay {
-  background-image: url(../img/home-banner.png);
+  background-image: url(../img2/pragatiii.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
@@ -756,7 +756,8 @@ li {
   padding: 307px 0 170px;
 }
 .banner-section.educations-loan .overlay {
-  background-image: url(../img/educations-banner.png);
+  /* background-image: url(../img2/tryyy1.png); */
+  background-image: url(../img2/rush-1.png);
   background-repeat: no-repeat;
   background-position: right 110px bottom;
 }
