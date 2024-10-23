@@ -7902,13 +7902,13 @@ fieldset:disabled .btn {
   margin-top: 0.5rem !important;
 }
 .mt-3 {
-  margin-top: 3rem !important;
+  margin-top: 1rem !important;
 }
 .mt-4 {
   margin-top: 1.5rem !important;
 }
 .mt-5 {
-  margin-top: 5rem !important;
+  margin-top: 3rem !important;
 }
 .mt-auto {
   margin-top: auto !important;
@@ -7951,9 +7951,6 @@ fieldset:disabled .btn {
 }
 .mb-5 {
   margin-bottom: 3rem !important;
-}
-.mt-2-9, .my-2-9 {
-    margin-top: 2.9rem;
 }
 .mb-auto {
   margin-bottom: auto !important;
@@ -8935,9 +8932,6 @@ fieldset:disabled .btn {
   }
   .d-sm-block {
     display: block !important;
-    top: 28%;
-    border-radius: 24%;
-    border-top-left-radius: 3%;
   }
   .d-sm-grid {
     display: grid !important;
@@ -9454,9 +9448,8 @@ fieldset:disabled .btn {
   .text-sm-start {
     text-align: left !important;
   }
-  .text-sm-end img{
-    width: 61%;
-    border-radius: 20%;
+  .text-sm-end {
+    text-align: right !important;
   }
   .text-sm-center {
     text-align: center !important;
@@ -10061,31 +10054,7 @@ fieldset:disabled .btn {
   }
   .d-lg-block {
     display: block !important;
-    top: 30%;
   }
-  .butn-style3 {
-    background: #b4c8b8;
-    color: #fff;
-    text-align: center;
-    border-radius: 4px;
-    padding: .75rem 1.75rem !important;
-    line-height: 1.6;
-    font-weight: 500;
-    letter-spacing: 0.6px;
-    text-transform: none !important;
-    position: relative;
-    z-index: 9999;
-    display: inline-block;
-    white-space: nowrap;
-    border: none;
-    cursor: pointer;
-    -moz-transition: width .4s;
-    -ms-transition: width .4s;
-    -webkit-transition: width .4s;
-    -o-transition: width .4s;
-    transition: width .4s;
-    margin-top: 2rem;
-}
   .d-lg-grid {
     display: grid !important;
   }
